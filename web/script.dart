@@ -11,7 +11,7 @@ class Task {
   Task(this.tarea, this.dueDate);
 
   String printData(){
-    return '$tarea, ${dueDate.year}-${dueDate.month}-${dueDate.day}, $done';
+    return '$tarea - ${dueDate.day}/${dueDate.month}/${dueDate.year} - $done';
   }
 
 }
