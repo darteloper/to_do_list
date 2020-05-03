@@ -1,6 +1,8 @@
 import 'dart:html';
 import 'dart:js';
 
+import 'utils.dart';
+
 class Task {
   String tarea;
   DateTime dueDate;
@@ -52,7 +54,7 @@ Task createTask(){
 
 void processCreateTask(){
   list.add(createTask());
-  print(list);
+  printList();
 }
 
 void processEditTask(){
@@ -63,7 +65,11 @@ void processEditTask(){
 
   var task = createTask();
   list[id-1] = task;
-  print(list);
+  printList();
+}
+
+void processOrderTask(){
+
 }
 
 void processDoneTask(){
@@ -74,7 +80,7 @@ void processDoneTask(){
   final isDone = getIsDone();
   Task task = list[id-1];
   task.done = isDone;
-  print(list);
+  printList();
 }
 
 void processDeleteTask(){
@@ -83,7 +89,7 @@ void processDeleteTask(){
     context.callMethod('alert',['Número no valido']);
   }
   list.removeAt(id-1);
-  print(list);
+  printList();
 }
 
 void btnAdd(MouseEvent event){
@@ -106,7 +112,7 @@ void btnOrder(MouseEvent event){
       }
     }
   }
-  print(list);
+  printList();
 }
 
 void btnDone(MouseEvent event){
