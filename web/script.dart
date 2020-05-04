@@ -4,14 +4,14 @@ import 'dart:js';
 import 'utils.dart';
 
 class Task {
-  String tarea;
+  String name;
   DateTime dueDate;
   bool done = false;
 
-  Task(this.tarea, this.dueDate);
+  Task(this.name, this.dueDate);
 
   String printData(){
-    return '$tarea - ${dueDate.day}/${dueDate.month}/${dueDate.year} - $done';
+    return '$name - ${dueDate.day}/${dueDate.month}/${dueDate.year} - $done';
   }
 
 }
