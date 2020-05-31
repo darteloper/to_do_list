@@ -1,4 +1,5 @@
-An absolute bare-bones web app.
+[![N|Solid](https://miro.medium.com/max/2363/1*P7H5XQLwoJ7c0ZneeCWfEg.png)](https://medium.com/@BrayanMamani)
 
-Created from templates made available by Stagehand under a BSD-style
-[license](https://github.com/dart-lang/stagehand/blob/master/LICENSE).
+[![BSD License](https://img.shields.io/badge/license-BSD-blue.svg)](https://github.com/dart-lang/stagehand/blob/master/LICENSE) [![Twitter](https://img.shields.io/twitter/follow/darteloper.svg?style=social&label=Follow)](https://twitter.com/darteloper)
+
+Dart is the programming language for Flutter, Google's UI toolkit for building beautiful, natively compiled mobile, web, and desktop apps from a single codebase.
