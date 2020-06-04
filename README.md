@@ -8,7 +8,11 @@ Dart is the programming language for Flutter, Google's UI toolkit for building b
 
 This repository presents you with a web application that allows us to manage tasks: where we can add, delete, modify, order tasks.
 
-![](to_do_list.png)
+<div align="center">
+    <center>
+        <img src="to_do_list.png" width="50%">
+    </center>
+</div>
 
 ## What you will need
 
