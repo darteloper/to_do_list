@@ -6,4 +6,4 @@ Dart is the programming language for Flutter, Google's UI toolkit for building b
 
 ## About To Do List
 
-Este repositorio le presenta una aplicación web que nos permite administrar tareas: donde podemos agregar, eliminar, modificar, ordenar tareas.
+This repository presents you with a web application that allows us to manage tasks: where we can add, delete, modify, order tasks.
