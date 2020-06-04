@@ -8,12 +8,6 @@ Dart is the programming language for Flutter, Google's UI toolkit for building b
 
 This repository presents you with a web application that allows us to manage tasks: where we can add, delete, modify, order tasks.
 
-<div align="center">
-    <center>
-        <img src="to_do_list.png" width="50%">
-    </center>
-</div>
-
 ## What you will need
 
 [SDK](https://dart.dev/get-dart), a Software Development Kit of Dart that gives us the necessary tools to develop applications with Dart. In addition to using an IDE like [WebStorm](https://www.jetbrains.com/webstorm/), [IntelliJ IDEA](https://www.jetbrains.com/idea/) with the Dart plugin or  [Visual Studio Code](https://code.visualstudio.com/) with the Dart Code extension.
